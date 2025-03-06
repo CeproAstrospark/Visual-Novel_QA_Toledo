@@ -19,6 +19,16 @@ public class PageManager : MonoBehaviour
     public int ItStopPage;
     public int rbhStartPage;
     public int rbhStopPage;
+    public int ThreeStartPage;
+    public int ThreeStopPage;
+    public int SDStartPage;
+    public int SDStopPage;
+    public int PWDStartPage;
+    public int PWDStopPage;
+    public int redB2StartPage;
+    public int redB2StopPage;
+    public int rbStartPage;
+    public int rbStopPage;
 
 
     void Start()
@@ -108,5 +118,66 @@ public class PageManager : MonoBehaviour
         {
             Music[5].Stop(); // Stop music when reaching or exceeding the stop page
         }
+
+        if (pageIndex >= ThreeStartPage && pageIndex < ThreeStopPage)
+        {
+            if (!Music[6].isPlaying) // Prevents restarting if already playing
+            {
+                Music[6].Play();
+            }
+        }
+        else if (pageIndex >= ThreeStopPage)
+        {
+            Music[6].Stop(); // Stop music when reaching or exceeding the stop page
+        }
+
+        if (pageIndex >= SDStartPage && pageIndex < SDStopPage)
+        {
+            if (!Music[7].isPlaying) // Prevents restarting if already playing
+            {
+                Music[7].Play();
+            }
+        }
+        else if (pageIndex >= SDStopPage)
+        {
+            Music[7].Stop(); // Stop music when reaching or exceeding the stop page
+        }
+
+        if (pageIndex >= PWDStartPage && pageIndex < PWDStopPage)
+        {
+            if (!Music[8].isPlaying) // Prevents restarting if already playing
+            {
+                Music[8].Play();
+            }
+        }
+        else if (pageIndex >= PWDStopPage)
+        {
+            Music[8].Stop(); // Stop music when reaching or exceeding the stop page
+        }
+
+        if (pageIndex >= redB2StartPage && pageIndex < redB2StopPage)
+        {
+            if (!Music[9].isPlaying) // Prevents restarting if already playing
+            {
+                Music[9].Play();
+            }
+        }
+        else if (pageIndex >= redB2StopPage)
+        {
+            Music[9].Stop(); // Stop music when reaching or exceeding the stop page
+        }
+
+        if (pageIndex >= rbStartPage && pageIndex < rbStopPage)
+        {
+            if (!Music[10].isPlaying) // Prevents restarting if already playing
+            {
+                Music[10].Play();
+            }
+        }
+        else if (pageIndex >= rbStopPage)
+        {
+            Music[10].Stop(); // Stop music when reaching or exceeding the stop page
+        }
+
     }
 }
