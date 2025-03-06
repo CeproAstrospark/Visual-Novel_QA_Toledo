@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\jenifer toledo\\Documents\\GitHub\\Visual-Novel_QA_Toledo\\Visual novel\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B7320537-7292-914C-4771-C8C37BEB1699}|Assembly-CSharp.csproj|c:\\users\\jenifer toledo\\documents\\github\\visual-novel_qa_toledo\\visual novel\\assets\\assets\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7320537-7292-914C-4771-C8C37BEB1699}|Assembly-CSharp.csproj|solutionrelative:assets\\assets\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B7320537-7292-914C-4771-C8C37BEB1699}|Assembly-CSharp.csproj|c:\\users\\jenifer toledo\\documents\\github\\visual-novel_qa_toledo\\visual novel\\assets\\assets\\pagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B7320537-7292-914C-4771-C8C37BEB1699}|Assembly-CSharp.csproj|solutionrelative:assets\\assets\\pagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -25,15 +29,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainMenu.cs",
+              "DocumentMoniker": "C:\\Users\\jenifer toledo\\Documents\\GitHub\\Visual-Novel_QA_Toledo\\Visual novel\\Assets\\assets\\MainMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\assets\\MainMenu.cs",
+              "ToolTip": "C:\\Users\\jenifer toledo\\Documents\\GitHub\\Visual-Novel_QA_Toledo\\Visual novel\\Assets\\assets\\MainMenu.cs",
+              "RelativeToolTip": "Assets\\assets\\MainMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T16:59:18.175Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "PageManager.cs",
               "DocumentMoniker": "C:\\Users\\jenifer toledo\\Documents\\GitHub\\Visual-Novel_QA_Toledo\\Visual novel\\Assets\\assets\\PageManager.cs",
               "RelativeDocumentMoniker": "Assets\\assets\\PageManager.cs",
@@ -46,7 +63,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PageManager.cs",
               "DocumentMoniker": "C:\\Users\\jenifer toledo\\Documents\\GitHub\\fundamentals_1_toledo\\Visual novel\\Assets\\PageManager.cs",
               "RelativeDocumentMoniker": "..\\..\\fundamentals_1_toledo\\Visual novel\\Assets\\PageManager.cs",
@@ -57,7 +74,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "hover.cs",
               "DocumentMoniker": "C:\\Users\\jenifer toledo\\Documents\\GitHub\\Visual-Novel_QA_Toledo\\Visual novel\\Assets\\hover.cs",
               "RelativeDocumentMoniker": "Assets\\hover.cs",
@@ -69,7 +86,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "assets.cs",
               "DocumentMoniker": "C:\\Users\\jenifer toledo\\Documents\\GitHub\\Visual-Novel_QA_Toledo\\Visual novel\\Assets\\assets.cs",
               "RelativeDocumentMoniker": "Assets\\assets.cs",
