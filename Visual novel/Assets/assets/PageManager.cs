@@ -29,6 +29,10 @@ public class PageManager : MonoBehaviour
     public int redB2StopPage;
     public int rbStartPage;
     public int rbStopPage;
+    public int STFStartPage;
+    public int STFStopPage;
+    public int TCStartPage;
+    public int TCStopPage;
 
 
     void Start()
@@ -177,6 +181,30 @@ public class PageManager : MonoBehaviour
         else if (pageIndex >= rbStopPage)
         {
             Music[10].Stop(); // Stop music when reaching or exceeding the stop page
+        }
+
+        if (pageIndex >= STFStartPage && pageIndex < STFStopPage)
+        {
+            if (!Music[11].isPlaying) // Prevents restarting if already playing
+            {
+                Music[11].Play();
+            }
+        }
+        else if (pageIndex >= STFStopPage)
+        {
+            Music[11].Stop(); // Stop music when reaching or exceeding the stop page
+        }
+
+        if (pageIndex >= TCStartPage && pageIndex < TCStopPage)
+        {
+            if (!Music[12].isPlaying) // Prevents restarting if already playing
+            {
+                Music[12].Play();
+            }
+        }
+        else if (pageIndex >= TCStopPage)
+        {
+            Music[12].Stop(); // Stop music when reaching or exceeding the stop page
         }
 
     }
